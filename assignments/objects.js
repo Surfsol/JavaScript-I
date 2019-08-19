@@ -135,9 +135,9 @@ const parent = {
 console.log(parent.name);
 
 // Log the child's age
-console.log(Object.entries(parent[2])[1]);
+console.log(parent.child[0].age);
 // Log the name and age of the grandchild
-
+console.log(parent.child[0])
 // Have the parent speak
 
 // Have the child speak
